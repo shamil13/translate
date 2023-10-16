@@ -1,0 +1,59 @@
+body {
+    background-image: url('mountain.jpg'); /* Путь к фоновой фотографии */
+    background-size: cover; /* Масштабируем фон, чтобы охватывать весь экран */
+    background-position: center; /* Выравниваем фон по центру */
+    font-family: Arial, sans-serif; /* Шрифт текста */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Ваши стили для .container и .login-form также остаются без изменений */
+.container {
+    text-align: center;
+}
+.login-form {
+    background-color: rgba(255, 255, 255, 0.4); /* Полупрозрачный белый фон формы */
+    padding: 20px;
+    border-radius: 55px; /* Закругляем углы формы */
+}
+
+
+
+.login-form input[type="text"],
+.login-form input[type="email"],
+.login-form input[type="password"],
+.login-form button {
+    width: 100%;
+    padding: 5px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Полупрозрачный белый фон для полей ввода */
+}
+/* Внесем небольшие изменения для стилей заголовка и кнопки на странице регистрации */
+
+/* Стили для h1 (заголовка формы на странице регистрации) */
+.login-form h1 {
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+/* Стили для кнопки на странице регистрации */
+.login-form button {
+    background-color: transparent; /* Прозрачный фон кнопки */
+    color: black; /* Цвет текста кнопки */
+    cursor: pointer;
+    border: 1px solid black; /* Граница кнопки */
+    border-radius: 5px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s; /* Плавные переходы при наведении */
+}
+
+.login-form button:hover {
+    background-color: black; /* Цвет фона кнопки при наведении */
+    color: white; /* Цвет текста кнопки при наведении */
+}
